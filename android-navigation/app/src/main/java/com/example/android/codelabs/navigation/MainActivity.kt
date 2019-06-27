@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         // You should also remove the old appBarConfiguration setup above
         val drawerLayout : DrawerLayout? = findViewById(R.id.drawer_layout)
         appBarConfiguration = AppBarConfiguration(
-                setOf(R.id.home_dest, R.id.deeplink_dest),
+                setOf(R.id.home_dest, R.id.deeplink_dest, R.id.gallery_dest, R.id.slack_dest, R.id.profile_dest),
                 drawerLayout)
         // TODO END STEP 9.5
 
@@ -74,9 +74,7 @@ class MainActivity : AppCompatActivity() {
                 Integer.toString(destination.id)
             }
 
-            Toast.makeText(this@MainActivity, "Navigated to $dest",
-                    Toast.LENGTH_SHORT).show()
-            Log.d("NavigationActivity", "Navigated to $dest")
+
         }
     }
 

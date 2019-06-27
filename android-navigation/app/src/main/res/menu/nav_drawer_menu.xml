@@ -15,12 +15,24 @@
     <group android:id="@+id/primary">
         <item
             android:id="@id/home_dest"
-            android:icon="@drawable/ic_home"
-            android:title="@string/home" />
+            android:icon="@drawable/ic_route"
+            android:title="@string/routes" />
         <item
             android:id="@id/deeplink_dest"
-            android:icon="@drawable/ic_android"
-            android:title="@string/deeplink" />
+            android:icon="@drawable/ic_avt"
+            android:title="@string/my_route" />
+        <item
+            android:id="@id/gallery_dest"
+            android:icon="@drawable/ic_image_gallery"
+            android:title="@string/gallery" />
+        <item
+            android:id="@id/slack_dest"
+            android:icon="@drawable/ic_slack"
+            android:title="@string/chanel" />
+        <item
+            android:id="@id/profile_dest"
+            android:icon="@drawable/ic_helmet"
+            android:title="@string/profile" />
     </group>
     <!-- TODO STEP 9.8 - Add a menu item for settings_fragment -->
     <item
